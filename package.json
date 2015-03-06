@@ -1,0 +1,24 @@
+{
+  "name": "envstachify",
+  "version": "1.0.0",
+  "description": "browserify transform to insert environment variables using mustache syntax",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "keywords": [
+    "browserify-transform",
+    "mustache",
+    "environment",
+    "envify"
+  ],
+  "author": "John Chesley <john@chesl.es>",
+  "license": "MIT",
+  "dependencies": {
+    "mustache": "^1.1.0",
+    "through2": "^0.6.3"
+  },
+  "devDependencies": {
+    "tape": "^3.5.0"
+  }
+}
